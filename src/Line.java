@@ -38,10 +38,8 @@ public class Line {
         System.out.println("The length of the second line is " + line2.length);
         if (Double.compare(line1.length, line2.length) == 0)
             System.out.println("The lines are equal in length");
-        else if (Double.compare(line1.length, line2.length) > 0)
-            System.out.println("First Line is greater than Second Line");
         else
-            System.out.println("Second line is greater than First line");
+            System.out.println("The lines are not equal in length");
 
     }
 }
